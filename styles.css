@@ -62,3 +62,38 @@ p{
     color: rgb(110, 110, 110);
     font-weight: 100;
 }
+
+.card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    background-color: rgb(232, 238, 253);
+    /* border-radius: 20px; */
+    /* border: 2px solid palevioletred; */
+    padding: 10px;
+    margin: 0 0 1em 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin: 40px 200px;
+    column-gap: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+}
+
+.card a {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.card p {
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+}
