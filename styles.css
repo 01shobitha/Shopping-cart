@@ -129,3 +129,17 @@ button:hover {
     background-color: rgb(36, 172, 235);
     cursor: pointer;
 }
+
+.footer {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+}
+
+.footer p {
+    font-size: 13px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
