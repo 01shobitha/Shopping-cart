@@ -110,3 +110,22 @@ p{
     color: black;
     font-size: 20px;
 }
+
+.card button {
+    display: flex;
+    margin: 15px;
+    justify-content: flex-start;
+    border-radius: 5px;
+    border: 1px solid rgb(36, 172, 235);
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color: rgb(36, 172, 235);
+}
+
+button:hover {
+    border: none;
+    color: white;
+    background-color: rgb(36, 172, 235);
+    cursor: pointer;
+}
