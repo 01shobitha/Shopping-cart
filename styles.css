@@ -1,3 +1,7 @@
+.body {
+    font-family:  "Comic Sans MS", cursive, sans-serif;
+}
+
 .heade {
     display: flex;
     height: 50px;
@@ -66,10 +70,10 @@ p{
 .card {
     break-inside: avoid;
     page-break-inside: avoid;
-    background-color: rgb(232, 238, 253);
+    background-color: rgb(223, 223, 223);
     /* border-radius: 20px; */
     /* border: 2px solid palevioletred; */
-    padding: 10px;
+    padding: 1px;
     margin: 0 0 1em 0;
 }
 
@@ -94,6 +98,15 @@ p{
 }
 
 .card p {
-    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 17px;
     color: rgb(88, 88, 88);
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#pro_name {
+    color: black;
+    font-size: 20px;
 }
