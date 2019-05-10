@@ -34,7 +34,7 @@
 
 .heade li {
     list-style-type: none;
-    margin-left: 7px;
+    margin-left: 10px;
     color: rgb(32, 165, 248);
 }
 
@@ -142,4 +142,8 @@ button:hover {
     color: white;
     margin-top: 20px;
     margin-left: 40px;
+}
+
+a {
+    text-decoration: none; 
 }
