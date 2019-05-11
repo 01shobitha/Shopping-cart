@@ -6,6 +6,6 @@ Made a shopping cart(responsive) as a project. Used the following:
     -CSS
     
 ### Screenshots below: 
-![screenshot1](images/1.png)
-![screenshot1](images/2.png)
-![screenshot1](images/3.png)
+![screenshot1](images/Screenshot1.png)
+![screenshot1](images/Screenshot2.png)
+![screenshot1](images/Screenshot3.png)
